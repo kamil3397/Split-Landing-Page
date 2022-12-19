@@ -26,7 +26,7 @@ h1 {
   position: absolute;
   left: 50%;
   top: 20%;
-  transform: translateX('-50%');
+  transform: translateX(-50%);
   white-space: nowrap;
 }
 
@@ -119,4 +119,15 @@ h1 {
 
 .hover-right .left {
   width: var(--other-width);
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+
+  .btn {
+    padding: 1.2rem;
+    width: 12rem;
+  }
 }
